@@ -55,3 +55,18 @@ Install skills inside your target project; put the repository's `AGENTS.md` in t
 - Keep secrets out of logs, prompts, artifacts and version control.
 - All coding agents report test evidence and unresolved issues.
 - MCP connections are optional and configured in the actual host agent, not here.
+
+## Codex specialist dispatch
+
+Install and authenticate the Codex CLI on your own machine. Dispatch a specialist for the current stage using:
+
+```bash
+python3 -m pipeline.cli init --project ./demo-app
+python3 -m pipeline.cli next --project ./demo-app
+python3 -m pipeline.codex_adapter --project ./demo-app --agent python --dry-run
+python3 -m pipeline.codex_adapter --project ./demo-app --agent python
+# Review the generated stage report and changes before completing:
+python3 -m pipeline.cli complete --project ./demo-app
+```
+
+List available specialists with `python3 -m pipeline.cli agents`. The adapter runs one selected specialist in Codex's `workspace-write` sandbox, references the preceding stage's artifact, and leaves state advancement and human approval to the existing workflow CLI. This does not yet implement parallel delegation, semantic artifact validation, authenticated approvals, or automatic deployment. Codex must be installed and logged in separately.
