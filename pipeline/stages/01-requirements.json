@@ -1,0 +1,9 @@
+{
+  "id": "requirements",
+  "index": 1,
+  "output": "docs/requirements.md",
+  "requires_approval": false,
+  "skills": [
+    "requirements-gathering"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "testing",
+  "index": 7,
+  "output": "docs/test-report.md",
+  "requires_approval": true,
+  "skills": [
+    "testing"
+  ]
+}

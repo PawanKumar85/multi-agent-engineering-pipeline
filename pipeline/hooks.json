@@ -1,0 +1,11 @@
+{
+  "before_stage": [
+    "hooks/pre_stage.py"
+  ],
+  "after_stage": [
+    "hooks/post_stage.py"
+  ],
+  "on_approval": [
+    "hooks/on_approval.py"
+  ]
+}

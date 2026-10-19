@@ -1,0 +1,9 @@
+{
+  "id": "database-design",
+  "index": 4,
+  "output": "docs/database-design.md",
+  "requires_approval": true,
+  "skills": [
+    "database-design"
+  ]
+}

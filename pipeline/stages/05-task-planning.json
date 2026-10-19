@@ -1,0 +1,9 @@
+{
+  "id": "task-planning",
+  "index": 5,
+  "output": "docs/task-plan.md",
+  "requires_approval": true,
+  "skills": [
+    "task-planning"
+  ]
+}

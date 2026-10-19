@@ -1,0 +1,9 @@
+{
+  "id": "deployment",
+  "index": 8,
+  "output": "docs/deployment-report.md",
+  "requires_approval": true,
+  "skills": [
+    "deployment"
+  ]
+}

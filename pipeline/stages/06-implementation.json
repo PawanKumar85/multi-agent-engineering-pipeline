@@ -1,0 +1,13 @@
+{
+  "id": "implementation",
+  "index": 6,
+  "output": "docs/implementation-report.md",
+  "requires_approval": false,
+  "skills": [
+    "react",
+    "python",
+    "backend-design",
+    "frontend-design",
+    "tailwind"
+  ]
+}

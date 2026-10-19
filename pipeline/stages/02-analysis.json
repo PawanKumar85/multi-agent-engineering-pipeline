@@ -1,0 +1,9 @@
+{
+  "id": "analysis",
+  "index": 2,
+  "output": "docs/validated-requirements.md",
+  "requires_approval": true,
+  "skills": [
+    "requirements-gathering"
+  ]
+}

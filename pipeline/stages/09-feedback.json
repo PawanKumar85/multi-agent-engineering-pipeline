@@ -1,0 +1,9 @@
+{
+  "id": "feedback",
+  "index": 9,
+  "output": "docs/feedback.md",
+  "requires_approval": false,
+  "skills": [
+    "requirements-gathering"
+  ]
+}

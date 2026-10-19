@@ -1,0 +1,9 @@
+{
+  "id": "system-design",
+  "index": 3,
+  "output": "docs/system-design.md",
+  "requires_approval": true,
+  "skills": [
+    "system-design"
+  ]
+}
